@@ -5,5 +5,24 @@
     "express": "^4.18.1",
     "mongoose": "^6.6.4",
     "node": "^18.10.0"
-  }
+  },
+  "name": "inv-backend",
+  "version": "1.0.0",
+  "description": "Backend for inventory management system",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheArcticKitten/inv-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheArcticKitten/inv-backend/issues"
+  },
+  "homepage": "https://github.com/TheArcticKitten/inv-backend#readme"
 }
