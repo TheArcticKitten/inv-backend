@@ -7,6 +7,7 @@ const Schema = mongoose.Schema;
  * warehouseId
  * name
  * storageCapacity
+ * currentCapacity
  * location (city, state)
  */
 const warehouseSchema = new Schema({

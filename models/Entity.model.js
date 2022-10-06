@@ -33,6 +33,7 @@ const entitySchema = new Schema({
         type: String,
         required: true
     },
+    entityDesc: String,
     entitySize: {
         type: Number,
         required: true
