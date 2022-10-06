@@ -8,10 +8,9 @@ app.use(cors()); // This enables CORS middleware and will allow my server to tak
 app.use(express.json());
 
 // Routes
-const entityRouter = require('./routes/entity.route.js');
-app.use('/entity', entityRouter);
-app.use(cors());
-// app.use('/trainers', require('./routes/trainer.route.js')); // You can do it on one line
+
+app.use('/entity', require('./routes/entity.route.js'));
+app.use('/warehouses', require('./routes/warehouse.route.js')); // You can do it on one line
 
 const connectToMongo = async () => {
     try {

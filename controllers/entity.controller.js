@@ -24,7 +24,6 @@ const createEntity = async entityToSave => {
         // We'll use the model and create a new instance of it
         // This alone does not save the entity
         const entity = new Entity(entityToSave); // This runs all of my validation logic
-        // entity.name = 'Fred'; // This change would be saved
         await entity.save(); // Take the instance and save it
         return entity;
     } catch (err) {

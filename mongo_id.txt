@@ -1,0 +1,31 @@
+Warehouses
+{
+    warehouseId: Number,
+    name: String,
+    storageCapacity: Number,
+    location: String
+}
+
+Warehouse 0
+{
+    "warehouseId": 0
+    "name": "Flagship"
+    "storageCapacity": 100
+    "location": "Houston, Texas"
+}
+
+Warehouse 1
+{
+    "warehouseId": 1
+    "name": "Penultimate"
+    "storageCapacity": 5
+    "location": "Fred, Texas"
+}
+
+Warehouse 2
+{
+    "warehouseId": 2
+    "name": "Valentine"
+    "storageCapacity": 20
+    "location": "Valentine, Texas"
+}
