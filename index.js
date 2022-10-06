@@ -10,7 +10,7 @@ app.use(express.json());
 // Routes
 
 app.use('/entity', require('./routes/entity.route.js'));
-app.use('/warehouses', require('./routes/warehouse.route.js')); // You can do it on one line
+app.use('/warehouses', require('./routes/warehouse.route.js')); 
 
 const connectToMongo = async () => {
     try {

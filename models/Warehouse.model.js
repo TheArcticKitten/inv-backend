@@ -22,6 +22,7 @@ const warehouseSchema = new Schema({
         type: Number,
         required: true
     },
+    currentCapacity: Number,
     location: {
         type: String,
         required: true
