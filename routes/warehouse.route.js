@@ -10,7 +10,7 @@ const validateObjectId = (req, res, next) => {
 }
 
 // Find all Warehouses
-router.get('/warehouse', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const warehouses = await findAllWarehouses();
         res.status(200).json(warehouses);

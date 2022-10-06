@@ -8,24 +8,27 @@ Warehouses
 
 Warehouse 0
 {
-    "warehouseId": 0
-    "name": "Flagship"
-    "storageCapacity": 100
+    "warehouseId": 0,
+    "name": "Flagship",
+    "storageCapacity": 100,
+    "currentCapacity": 99,
     "location": "Houston, Texas"
 }
 
 Warehouse 1
 {
-    "warehouseId": 1
-    "name": "Penultimate"
-    "storageCapacity": 5
+    "warehouseId": 1,
+    "name": "Penultimate",
+    "storageCapacity": 5,
+    "currentCapacity": 0,
     "location": "Fred, Texas"
 }
 
 Warehouse 2
 {
-    "warehouseId": 2
-    "name": "Valentine"
-    "storageCapacity": 20
+    "warehouseId": 2,
+    "name": "Valentine",
+    "storageCapacity": 20,
+    "currentCapacity": 10,
     "location": "Valentine, Texas"
 }
