@@ -24,25 +24,15 @@ const Schema = mongoose.Schema; // Schema is a class that we can create our DB s
 const entitySchema = new Schema({
     // Mongoose gives you a _id if you don't specify one
     // Inside here, I will define my document schema
-    entityId: {
-        type: Number,
-        required: true
-    },
-    warehouseId: Number,
-    entityName: {
-        type: String,
-        required: true
-    },
+    entityCount: Number,
     entityDesc: String,
-    entitySize: {
-        type: Number,
-        required: true
-    },
-    entityCount: {
-        type: Number,
-        required: true
-    },
-    imageUrl: String
+    entityId: Number,
+    entityName: String,
+    entitySize: Number,
+    imageUrl: String,
+    warehouseId: Number,
+    __v: Number,
+    _id: String,
 });
 
 // Now take the schema and transform into a model

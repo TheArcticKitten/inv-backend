@@ -32,3 +32,75 @@ Warehouse 2
     "currentCapacity": 10,
     "location": "Valentine, Texas"
 }
+
+
+entityId: {
+        type: Number,
+    },
+    warehouseId: Number,
+    entityName: {
+        type: String,
+        required: true
+    },
+    entityDesc: String,
+    entitySize: {
+        type: Number,
+        required: true
+    },
+    entityCount: {
+        type: Number,
+        required: true
+    },
+    imageUrl: String
+
+Entities
+
+{
+    entityCount: 100,
+    entityId: 0,
+    entityName: "Nintendo Switch",
+    entityDesc: "An on the go and stay at home gaming console by Nintendo.",
+    entitySize: 1, 
+    imageUrl: "https://m.media-amazon.com/images/I/61-PblYntsL.jpg",
+    warehouseId: 0,
+    __v: 0,
+    _id: "633e3297981daca6f7fe20a7",
+}
+
+
+
+[
+    {
+        "_id": "633e31d9981daca6f7fe20a0",
+        "entityId": 1,
+        "entityDesc": "The GameCube is a home video game console developed and released by Nintendo in Japan on September 14, 2001.",
+        "warehouseId": 0,
+        "entityName": "GameCube",
+        "entitySize": 1,
+        "imageUrl": "https://m.media-amazon.com/images/I/51CAVXARFXL.jpg",
+        "__v": 0,
+        "entityCount": 5
+    },
+    {
+        "_id": "633e3297981daca6f7fe20a7",
+        "entityId": 0,
+        "warehouseId": 0,
+        "entityName": "Nintendo Switch",
+        "entityDesc": "An on the go and stay at home gaming console by Nintendo.",
+        "entitySize": 1,
+        "imageUrl": "https://m.media-amazon.com/images/I/61-PblYntsL.jpg",
+        "__v": 0,
+        "entityCount": 100
+    },
+    {
+        "_id": "633e38d0c92b831d6303e45b",
+        "entityId": 2,
+        "warehouseId": 0,
+        "entityDesc": "The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment.",
+        "entityName": "PlayStation 5",
+        "entitySize": 2,
+        "entityCount": 0,
+        "imageUrl": "https://m.media-amazon.com/images/I/51051FiD9UL.jpg",
+        "__v": 0
+    }
+]
